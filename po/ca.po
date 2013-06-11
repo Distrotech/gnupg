@@ -1807,10 +1807,6 @@ msgid "Usage: gpg [options] [files] (-h for help)"
 msgstr "Forma d'ús: gpg [opcions] [fitxers] (-h per a veure l'ajuda)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpg [options] [files]\n"
-#| "sign, check, encrypt or decrypt\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpg [options] [files]\n"
 "Sign, check, encrypt or decrypt\n"

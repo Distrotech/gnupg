@@ -200,7 +200,6 @@ msgid "Reset Code"
 msgstr "Resetační kód"
 
 #, fuzzy, c-format
-#| msgid "%s%%0A%%0AUse the reader's keypad for input."
 msgid "%s%%0A%%0AUse the reader's pinpad for input."
 msgstr "%s%%0A%%0APoužijte klávesnici čtečky."
 
@@ -299,7 +298,6 @@ msgid "Yes, protection is not needed"
 msgstr "Ano, ochrana není třeba"
 
 #, fuzzy, c-format
-#| msgid "Please enter the passphrase to%0Ato protect your new key"
 msgid "Please enter the passphrase to%0Aprotect your new key"
 msgstr "Prosím, pro ochranu svého nového klíče%0A zadejte heslo"
 
@@ -1684,10 +1682,6 @@ msgid "Usage: gpg [options] [files] (-h for help)"
 msgstr "Použití: gpg [možnosti] [soubory] (-h pro pomoc)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpg [options] [files]\n"
-#| "sign, check, encrypt or decrypt\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpg [options] [files]\n"
 "Sign, check, encrypt or decrypt\n"
@@ -5316,9 +5310,6 @@ msgid "Usage: kbxutil [options] [files] (-h for help)"
 msgstr "Použití: kbxutil [VOLBY] [SOUBORY] (-h pro nápovědu)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: kbxutil [options] [files]\n"
-#| "list, export, import Keybox data\n"
 msgid ""
 "Syntax: kbxutil [options] [files]\n"
 "List, export, import Keybox data\n"
@@ -5470,12 +5461,10 @@ msgid "|N|New PIN"
 msgstr "|N|Nový PIN"
 
 #, fuzzy
-#| msgid "|A|Please enter the Admin PIN"
 msgid "||Please enter the Admin PIN and New Admin PIN"
 msgstr "|A|Prosím, zadejte PIN správce"
 
 #, fuzzy
-#| msgid "||Please enter the PIN"
 msgid "||Please enter the PIN and New PIN"
 msgstr "||Prosím vložte PIN"
 
@@ -5541,7 +5530,6 @@ msgid "can't access %s - invalid OpenPGP card?\n"
 msgstr "přístup na %s se nezdařil – vadná OpenPGP karta?\n"
 
 #, fuzzy
-#| msgid "||Please enter your PIN at the reader's keypad"
 msgid "||Please enter your PIN at the reader's pinpad"
 msgstr "||Prosím, zadejte svůj PIN na klávesnici čtečky"
 
@@ -5576,7 +5564,6 @@ msgid "|N|disconnect the card after N seconds of inactivity"
 msgstr "|N|odpojovat se od karty po N sekundách nečinnosti"
 
 #, fuzzy
-#| msgid "do not use a reader's keypad"
 msgid "do not use a reader's pinpad"
 msgstr "nepoužívat klávesnici čtečky"
 
@@ -5853,22 +5840,18 @@ msgid "error getting key usage information: %s\n"
 msgstr "chyba při získání informací o způsobu užití klíče: %s\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for certification\n"
 msgid "certificate should not have been used for certification\n"
 msgstr "certifikát neměl být použit pro certifikování\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for OCSP response signing\n"
 msgid "certificate should not have been used for OCSP response signing\n"
 msgstr "certifikát neměl být použit pro podepsání OCSP odpovědi\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for encryption\n"
 msgid "certificate should not have been used for encryption\n"
 msgstr "certifikát neměl použit pro šifrování\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for signing\n"
 msgid "certificate should not have been used for signing\n"
 msgstr "certifikát neměl být použit pro podepisování\n"
 
@@ -6138,10 +6121,6 @@ msgid "Usage: gpgsm [options] [files] (-h for help)"
 msgstr "Použití: gpgsm [VOLBY] [SOUBORY] (-h pro nápovědu)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpgsm [options] [files]\n"
-#| "sign, check, encrypt or decrypt using the S/MIME protocol\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpgsm [options] [files]\n"
 "Sign, check, encrypt or decrypt using the S/MIME protocol\n"

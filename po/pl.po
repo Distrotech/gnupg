@@ -179,7 +179,6 @@ msgid "Reset Code"
 msgstr "Kod resetuj±cy"
 
 #, fuzzy, c-format
-#| msgid "%s%%0A%%0AUse the reader's keypad for input."
 msgid "%s%%0A%%0AUse the reader's pinpad for input."
 msgstr "%s%%0A%%0ADo wpisywania nale¿y u¿yæ klawiatury czytnika."
 
@@ -278,7 +277,6 @@ msgid "Yes, protection is not needed"
 msgstr "Tak, ochrona nie jest potrzebna"
 
 #, fuzzy, c-format
-#| msgid "Please enter the passphrase to%0Ato protect your new key"
 msgid "Please enter the passphrase to%0Aprotect your new key"
 msgstr "Proszê wprowadziæ has³o do%0Azabezpieczenia swojego nowego klucza"
 
@@ -1667,10 +1665,6 @@ msgid "Usage: gpg [options] [files] (-h for help)"
 msgstr "Wywo³anie: gpg [opcje] [pliki] (-h podaje pomoc)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpg [options] [files]\n"
-#| "sign, check, encrypt or decrypt\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpg [options] [files]\n"
 "Sign, check, encrypt or decrypt\n"
@@ -5345,9 +5339,6 @@ msgid "Usage: kbxutil [options] [files] (-h for help)"
 msgstr "Wywo³anie: kbxutil [opcje] [pliki] (-h podaje pomoc)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: kbxutil [options] [files]\n"
-#| "list, export, import Keybox data\n"
 msgid ""
 "Syntax: kbxutil [options] [files]\n"
 "List, export, import Keybox data\n"
@@ -5499,12 +5490,10 @@ msgid "|N|New PIN"
 msgstr "|N|Nowy PIN"
 
 #, fuzzy
-#| msgid "|A|Please enter the Admin PIN"
 msgid "||Please enter the Admin PIN and New Admin PIN"
 msgstr "|A|Proszê wprowadziæ PIN administracyjny"
 
 #, fuzzy
-#| msgid "||Please enter the PIN"
 msgid "||Please enter the PIN and New PIN"
 msgstr "||Proszê wpisaæ PIN"
 
@@ -5572,7 +5561,6 @@ msgid "can't access %s - invalid OpenPGP card?\n"
 msgstr "nie mo¿na dostaæ siê do %s - niepoprawna karta OpenPGP?\n"
 
 #, fuzzy
-#| msgid "||Please enter your PIN at the reader's keypad"
 msgid "||Please enter your PIN at the reader's pinpad"
 msgstr "||Proszê wprowadziæ PIN na klawiaturze czytnika"
 
@@ -5607,7 +5595,6 @@ msgid "|N|disconnect the card after N seconds of inactivity"
 msgstr "|N|od³±czenie karty po N sekundach nieaktywno¶ci"
 
 #, fuzzy
-#| msgid "do not use a reader's keypad"
 msgid "do not use a reader's pinpad"
 msgstr "nie u¿ywanie klawiatury czytnika"
 
@@ -5884,22 +5871,18 @@ msgid "error getting key usage information: %s\n"
 msgstr "b³±d podczas pobierania informacji o wykorzystaniu klucza: %s\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for certification\n"
 msgid "certificate should not have been used for certification\n"
 msgstr "certyfikat nie powinien byæ u¿ywany do po¶wiadczania\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for OCSP response signing\n"
 msgid "certificate should not have been used for OCSP response signing\n"
 msgstr "certyfikat nie powinien byæ u¿ywany do podpisywania odpowiedzi OCSP\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for encryption\n"
 msgid "certificate should not have been used for encryption\n"
 msgstr "certyfikat nie powinien byæ u¿ywany do szyfrowania\n"
 
 #, fuzzy
-#| msgid "certificate should have not been used for signing\n"
 msgid "certificate should not have been used for signing\n"
 msgstr "certyfikat nie powinien byæ u¿ywany do podpisywania\n"
 
@@ -6170,10 +6153,6 @@ msgid "Usage: gpgsm [options] [files] (-h for help)"
 msgstr "Wywo³anie: gpgsm [opcje] [pliki] (-h podaje pomoc)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpgsm [options] [files]\n"
-#| "sign, check, encrypt or decrypt using the S/MIME protocol\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpgsm [options] [files]\n"
 "Sign, check, encrypt or decrypt using the S/MIME protocol\n"

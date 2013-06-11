@@ -1698,10 +1698,6 @@ msgid "Usage: gpg [options] [files] (-h for help)"
 msgstr "用法： gpg [选项] [文件] (用 -h 求助)"
 
 #, fuzzy
-#| msgid ""
-#| "Syntax: gpg [options] [files]\n"
-#| "sign, check, encrypt or decrypt\n"
-#| "default operation depends on the input data\n"
 msgid ""
 "Syntax: gpg [options] [files]\n"
 "Sign, check, encrypt or decrypt\n"
