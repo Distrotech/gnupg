@@ -29,15 +29,12 @@ helpfiles = help.txt help.be.txt help.ca.txt help.cs.txt		\
             help.sv.txt help.tr.txt help.zh_CN.txt help.zh_TW.txt
 
 EXTRA_DIST = samplekeys.asc ChangeLog-2011 \
-	     gnupg-logo.eps gnupg-logo.pdf gnupg-logo.png \
-             gnupg-card-architecture.eps gnupg-card-architecture.png \
-             gnupg-card-architecture.pdf \
              FAQ gnupg7.texi \
              opt-homedir.texi see-also-note.texi specify-user-id.texi \
 	     gpgv.texi texi.css  yat2m.c
 
-BUILT_SOURCES = gnupg-card-architecture.eps gnupg-card-architecture.png \
-                gnupg-card-architecture.pdf
+#BUILT_SOURCES = gnupg-card-architecture.eps gnupg-card-architecture.png \
+#                gnupg-card-architecture.pdf
 
 info_TEXINFOS = gnupg.texi
 
@@ -50,8 +47,7 @@ nobase_dist_doc_DATA = FAQ DETAILS HACKING TRANSLATE OpenPGP KEYSERVER \
 gnupg_TEXINFOS = \
 	gpg.texi gpgsm.texi gpg-agent.texi scdaemon.texi instguide.texi \
 	tools.texi debugging.texi glossary.texi contrib.texi gpl.texi \
-	sysnotes.texi gnupg-card-architecture.fig \
-	howtos.texi howto-create-a-server-cert.texi
+	sysnotes.texi howtos.texi howto-create-a-server-cert.texi
 
 DVIPS = TEXINPUTS="$(srcdir)$(PATH_SEPARATOR)$$TEXINPUTS" dvips
 
@@ -80,18 +76,6 @@ DISTCLEANFILES = gnupg.tmp gnupg.ops yat2m-stamp.tmp yat2m-stamp \
 
 yat2m: yat2m.c
 	$(CC_FOR_BUILD) -o $@ $(srcdir)/yat2m.c
-
-.fig.png:
-	fig2dev -L png `test -f '$<' || echo '$(srcdir)/'`$< $@
-
-.fig.jpg:
-	fig2dev -L jpg `test -f '$<' || echo '$(srcdir)/'`$< $@
-
-.fig.eps:
-	fig2dev -L eps `test -f '$<' || echo '$(srcdir)/'`$< $@
-
-.fig.pdf:
-	fig2dev -L pdf `test -f '$<' || echo '$(srcdir)/'`$< $@
 
 # Note that yatm --store has a bug in that the @ifset gpgtwoone still
 # creates a dirmngr-client page from tools.texi.
