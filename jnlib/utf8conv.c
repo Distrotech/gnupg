@@ -27,7 +27,7 @@
 #include <langinfo.h>
 #endif
 #include <errno.h>
-#ifndef HAVE_W32_SYSTEM
+#if !defined(HAVE_W32_SYSTEM) || defined(__cygwin__)
 # include <iconv.h>
 #endif
 
